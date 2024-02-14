@@ -62,7 +62,6 @@ window.addEventListener('DOMContentLoaded', function () {
     // author.textContent = item.name;
     // job.textContent = `Job Title: ${item.job}`;
     // info.textContent = `Info: ${item.id}`.toUpperCase();
-
     showPerson();
 });
 
