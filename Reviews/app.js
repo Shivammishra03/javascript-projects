@@ -46,7 +46,6 @@ const randomBtn = document.querySelector(".random-btn");
 let currentItem = 0;
 
 // show person based on item
-
 const showPerson = () => {
     const item = reviews[currentItem];
     img.src = item.img;
