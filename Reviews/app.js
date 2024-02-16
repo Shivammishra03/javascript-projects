@@ -48,7 +48,6 @@ const showPerson = () => {
   job.textContent = `Job Title: ${item.job}`;
   info.textContent = item.text;
 }
-
 // load initial item
 window.addEventListener('DOMContentLoaded', function () {
     // const item = reviews[currentItem];
