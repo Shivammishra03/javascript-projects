@@ -43,11 +43,11 @@ let currentItem = 0;
 
 // show person based on item
 const showPerson = () => {
-    const item = reviews[currentItem];
-    img.src = item.img;
-    author.textContent = item.name;
-    job.textContent = `Job Title: ${item.job}`;
-    info.textContent = item.text;
+  const item = reviews[currentItem];
+  img.src = item.img;
+  author.textContent = item.name;
+  job.textContent = `Job Title: ${item.job}`;
+  info.textContent = item.text;
 }
 // load initial item
 
@@ -77,6 +77,6 @@ prevBtn.addEventListener( "click", function() {
 
 // show random person
 randomBtn.addEventListener("click", function(){
-    currentItem = Math.floor(Math.random() * reviews.length);
-    showPerson();
+  currentItem = Math.floor(Math.random() * reviews.length);
+  showPerson();
 });
