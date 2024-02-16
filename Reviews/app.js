@@ -39,7 +39,6 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 // set starting item
-
 let currentItem = 0;
 
 // show person based on item
@@ -77,7 +76,6 @@ prevBtn.addEventListener( "click", function() {
 });
 
 // show random person
-
 randomBtn.addEventListener("click", function(){
     currentItem = Math.floor(Math.random() * reviews.length);
     showPerson();
